@@ -4,9 +4,9 @@
         <link rel="shortcut icon" href="data:;image/x-icon;," type="image/x-icon"/>
     </head>
     <body>
-        <form action = "http://localhost:5000/fileUpload" method = "POST"
+        <form action = "http://localhost:8003/upload-file" method = "POST"
             enctype = "multipart/form-data">
-            <input type = "file" name = "file" />
+            <input type = "file" name = "file" required="required" />
             <input type = "submit"/>
         </form>
     </body>
